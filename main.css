@@ -1,0 +1,97 @@
+:root{
+    box-sizing: border-box;
+}
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+img{
+    width: 80px;
+    height: 80px;
+    
+}
+.my-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#about{
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    
+}
+#portfolio-section h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: gray;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+form label{
+    display: block;
+    margin-left: 10px;
+}
+form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+#social-handles{
+    text-align: center;
+    margin-top: 10px;
+}
+@media(max-width: 600px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
